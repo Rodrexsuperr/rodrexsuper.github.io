@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+
+        <title>Dropdown</title>
+
+        <link rel="stylesheet" href="estilo.css">
+
+    </head>
+    ><style>
+        body{background-color: rgba(38, 38, 38, 255);
+        }
+        h3{color: beige;
+        }
+    </style>
+
+    <body>
+
+        <div class="container">
+
+            <button class="click">Click Me</button>
+
+            <div class="list">
+
+                <button class="links">Link 1</button>
+
+                <button class="links">Link 2</button>
+
+                <button class="links">Link 3</button>
+
+                <button class="links">Link 4</button>
+
+                <button class="links">Link 5</button>
+
+            </div>
+
+        </div>
+
+        <script>
+
+            let click = document.querySelector('.click');
+
+            let list = document.querySelector('.list');
+
+            click.addEventListener("click",()=>{
+
+                list.classList.toggle('newlist');
+
+            });
+
+        </script>
+
+
+        <p><h3>Teste para ver se isto já esta a funcionar</h3></p>
+
+    </body>
+
+</html>
+ 
+
+
+
